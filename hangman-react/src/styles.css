@@ -1,0 +1,32 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.word{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+.word div{
+    width: 40px;
+    text-align: center;
+    /* color: #fff; */
+    margin: 5px;
+    text-decoration: underline;
+    text-decoration-color: #000;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    flex-wrap: wrap;
+}
+.buttons button{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border: 2px solid #000;
+    background-color: #fff;
+    text-align: center;
+}
